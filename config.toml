@@ -1,8 +1,8 @@
-baseURL = 'http://onetwofoureight.com/'
+baseURL = "https://onetwofoureight.com"
 enableGitInfo = true
-languageCode = 'en-us'
+languageCode = "en-us"
 theme = "hermit"
-title = '1248'
+title = "1248"
 
 [author]
   name = "James Braza"
