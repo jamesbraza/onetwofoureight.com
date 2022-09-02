@@ -1,3 +1,38 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://onetwofoureight.com/'
+enableGitInfo = true
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+theme = "hermit"
+title = '1248'
+
+[author]
+  name = "James Braza"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
+
+[params]
+  # SEE: https://github.com/Track3/hermit/issues/27#issuecomment-450775241
+  dateform        = "Jan 2, 2006"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateformShort   = "Jan 2"
+
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  gitUrl = "https://github.com/jamesbraza/onetwofoureight"
+
+  homeSubtitle = "And beyond"
+
+  [[params.social]]
+    # SEE: https://github.com/Track3/hermit#social-icons
+    name = "github"
+    url = "https://github.com/jamesbraza/onetwofoureight"
