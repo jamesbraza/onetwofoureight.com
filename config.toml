@@ -30,7 +30,7 @@ title = "1248"
 
   gitUrl = "https://github.com/jamesbraza/onetwofoureight"
 
-  homeSubtitle = "And beyond"
+  homeSubtitle = "and beyond!"
 
   [[params.social]]
     # SEE: https://github.com/Track3/hermit#social-icons
