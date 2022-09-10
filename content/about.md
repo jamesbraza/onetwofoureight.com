@@ -19,7 +19,7 @@ The exponential nature of the sequence paired
 with its simplicity makes 1248 thought-provoking.
 It plays with the idea of connecting the creative right brain
 with the logial left brain,
-as the metaphorical text one two four eight mirrors the concrete digits 1248.
+as the text "one two four eight" mirrors the concrete digits 1248.
 
 How should one say 1248?
 Think: Buzz Lightyear's pronounciation of "to infinity" from
