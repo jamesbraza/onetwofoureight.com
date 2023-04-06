@@ -18,11 +18,11 @@ that progressively doubles each digit.
 The exponential nature of the sequence paired
 with its simplicity makes 1248 thought-provoking.
 It plays with the idea of connecting the creative right brain
-with the logial left brain,
+with the logical left brain,
 as the text "one two four eight" mirrors the concrete digits 1248.
 
 How should one say 1248?
-Think: Buzz Lightyear's pronounciation of "to infinity" from
+Think: Buzz Lightyear's pronunciation of "to infinity" from
 [his quote](https://youtu.be/sEQoOjj7j4o) "to infinity and beyond!"
 
 Welcome, sit back, relax, and head over to the [posts page][1] to get started.
