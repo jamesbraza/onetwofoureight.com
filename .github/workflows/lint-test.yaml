@@ -1,0 +1,17 @@
+---
+name: Lint and Test
+
+on: # yamllint disable-line rule:truthy
+  pull_request:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  lint-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pre-commit/action@v3.0.0
