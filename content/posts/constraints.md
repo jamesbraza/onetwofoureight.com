@@ -1,6 +1,6 @@
 ---
 title: "Constraints"
-date: 2022-09-01T20:06:06-07:00
+date: 2022-09-01
 draft: false
 tags: ["article"]
 ---
@@ -13,7 +13,7 @@ without lifting your pen.
 What makes the puzzle difficult is an assumed constraint that the lines
 must remain inside the grid.
 All solutions require extending multiple lines beyond the grid,
-hence the saying "think outside of the box."
+hence the saying "think outside the box."
 In practice, I find this aphorism to be untractable,
 so let me pose an alternate way of thinking: be cognizant of your constraints.
 
@@ -58,7 +58,7 @@ A coworker once shared a succinct philosophy: **compete without competing**.
 Seek out the unfair playing field,
 one with an exponential advantage...
 where two units of your work equals five of theirs,
-and four units of your work equals twenty five of theirs, and so on.
+and four units of your work equals twenty-five of theirs, and so on.
 This nonlinear advantage is only attainable in a problem space shaped
 from different constraints.
 Finding a winning strategy in a landscape filled with
