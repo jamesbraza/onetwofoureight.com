@@ -42,7 +42,7 @@ jobs:
           sudo dpkg -i ${{ runner.temp }}/hugo.deb
         # yamllint enable rule:line-length
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
       - name: Setup Pages
