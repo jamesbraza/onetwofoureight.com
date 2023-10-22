@@ -1,7 +1,7 @@
 baseURL = "https://onetwofoureight.com"
 enableGitInfo = true
 languageCode = "en-us"
-theme = "hermit"
+theme = "hermit-v2"
 title = "1248"
 
 [author]
