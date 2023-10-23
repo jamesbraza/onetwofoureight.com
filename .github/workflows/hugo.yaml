@@ -31,6 +31,8 @@ jobs:
     steps:
       - name: Install Hugo CLI
         # yamllint disable rule:line-length
+        # NOTE: extended is required for custom CSS (e.g. overriding partials):
+        # https://github.com/1bl4z3r/hermit-V2/tree/v1.0.2#customize-css
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb
           sudo dpkg -i ${{ runner.temp }}/hugo.deb
