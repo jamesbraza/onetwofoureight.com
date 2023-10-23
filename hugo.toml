@@ -26,10 +26,10 @@ dateformNum = "2006-01-02"
 dateformNumTime = "2006-01-02 15:04 -0700"
 dateformShort = "Jan 2"
 footerCopyright = ' <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-gitUrl = "https://github.com/jamesbraza/onetwofoureight"
+gitUrl = "https://github.com/jamesbraza/onetwofoureight.com"
 homeSubtitle = "and beyond!"
 
 [[params.social]]
 # SEE: https://github.com/Track3/hermit#social-icons
 name = "github"
-url = "https://github.com/jamesbraza/onetwofoureight"
+url = "https://github.com/jamesbraza/onetwofoureight.com"
