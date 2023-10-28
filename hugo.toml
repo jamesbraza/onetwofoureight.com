@@ -31,6 +31,7 @@ homeSubtitle = "and beyond!"
 homeSubtitlePrinter = false
 legacyLayout = true
 readTime = false
+relatedPosts = false
 
 [[params.social]]
 # SEE: https://github.com/Track3/hermit#social-icons
