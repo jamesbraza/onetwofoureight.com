@@ -1,0 +1,2 @@
+# Ignore all HTML files, since prettier v3.0.3 was causing Hugo rendering errors
+**/*.html
