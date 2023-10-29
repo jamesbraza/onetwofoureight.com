@@ -29,6 +29,7 @@ footerCopyright = ' <a href="https://creativecommons.org/licenses/by-nc/4.0/" ta
 gitUrl = "https://github.com/jamesbraza/onetwofoureight.com"
 homeSubtitle = "and beyond!"
 homeSubtitlePrinter = false
+justifyContent = false
 legacyLayout = true
 readTime = false
 relatedPosts = false
