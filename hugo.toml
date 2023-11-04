@@ -33,6 +33,7 @@ justifyContent = false
 legacyLayout = true
 readTime = false
 relatedPosts = false
+shareSocial = true
 
 [[params.social]]
 # SEE: https://github.com/Track3/hermit#social-icons
