@@ -4,9 +4,6 @@ languageCode = "en-us"
 theme = "hermit-v2"
 title = "1248"
 
-[author]
-name = "James Braza"
-
 [menu]
 
 [[menu.main]]
@@ -35,7 +32,11 @@ readTime = false
 relatedPosts = false
 shareSocial = true
 
-[[params.social]]
+[params.author]
+about = "about"
+name = "James Braza"
+
+[[params.socialLinks]]
 # SEE: https://github.com/Track3/hermit#social-icons
 name = "github"
 url = "https://github.com/jamesbraza/onetwofoureight.com"
