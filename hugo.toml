@@ -1,7 +1,6 @@
 baseURL = "https://onetwofoureight.com"
 enableGitInfo = true
 languageCode = "en-us"
-theme = "hermit-v2"
 title = "1248"
 
 [menu]
@@ -15,6 +14,9 @@ weight = 10
 name = "About"
 url = "about/"
 weight = 20
+
+[[module.imports]]
+path = "github.com/1bl4z3r/hermit-V2"
 
 [params]
 footerCopyright = ' <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
