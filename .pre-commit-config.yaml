@@ -24,12 +24,12 @@ repos:
       - id: trailing-whitespace
         exclude: .gitignore
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.37.1
+    rev: v1.38.0
     hooks:
       - id: yamllint
         args: [--strict]
   - repo: https://github.com/jackdewinter/pymarkdown
-    rev: v0.9.34
+    rev: v0.9.36
     hooks:
       - id: pymarkdown
   - repo: https://github.com/myint/rstcheck
@@ -39,15 +39,15 @@ repos:
         additional_dependencies:
           - sphinx
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: v3.7.4
+    rev: v3.8.1
     hooks:
       - id: prettier
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.4.1
+    rev: v2.4.2
     hooks:
       - id: codespell
         additional_dependencies: [".[toml]"]
   - repo: https://github.com/pappasam/toml-sort
-    rev: v0.24.3
+    rev: v0.24.4
     hooks:
       - id: toml-sort-fix
