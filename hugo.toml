@@ -3,6 +3,11 @@ enableGitInfo = true
 languageCode = "en-us"
 title = "1248"
 
+[markup.goldmark.extensions.typographer]
+# Required for the replaceRE fix in our custom layouts/posts/single.html
+# SEE: https://github.com/1bl4z3r/hermit-V2/issues/142
+enable = true
+
 [menu]
 
 [[menu.main]]
