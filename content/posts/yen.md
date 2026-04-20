@@ -50,10 +50,12 @@ If you spun yin-yang like a coin, and observed the boundary line,
 you would see a shape resembling an hourglass, an electron's orbital, or a mathematical lemniscate.
 The two foci in the lemniscate are the 'eyes' of yin-yang.
 
-{{< row >}}
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/b/bd/P_orbital_electron_density.png?_=20110917183816" alt="electron p orbital" width="80%" >}}
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Lemniscate_of_Bernoulli.svg" alt="lemniscate" width="80%" >}}
-{{< /row >}}
+<!-- pyml disable-num-lines 4 no-bare-urls -->
+
+{{< gallery >}}
+https://upload.wikimedia.org/wikipedia/commons/b/bd/P_orbital_electron_density.png?_=20110917183816
+https://upload.wikimedia.org/wikipedia/commons/e/ef/Lemniscate_of_Bernoulli.svg
+{{< /gallery >}}
 
 Let's recall that yin-yang is actually a 2-D projection of a 3-D representation.
 Its creator saw a sunny hillside, probably around 9 am or 3 pm, and cast it

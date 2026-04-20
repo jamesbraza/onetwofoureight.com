@@ -2,3 +2,34 @@
 #home-subtitle {
   font-size: 0.99em;
 }
+
+// Workaround for https://github.com/1bl4z3r/hermit-V2/issues/143
+$thumbnail: 0; // Required for `@import "gallery"` compilation; overridden below
+@import "gallery";
+
+// Vertically center items so a short image (e.g. a wide lemniscate) aligns
+// with the middle of a taller neighbor instead of the top of the row
+.image-gallery {
+  align-items: center;
+}
+
+.image-gallery .gallery-item {
+  width: calc(50% - 15px); // Full the column side-by-side
+  height: auto; // Size each tile to its image's natural aspect ratio
+}
+
+.image-gallery .gallery-item img {
+  width: 100%; // Fill the tile's width
+  height: auto; // Let height follow the image's natural aspect ratio
+  object-fit: contain; // Show the whole image instead of cropping it
+}
+
+.content .image-gallery .gallery-item {
+  // The `.content` prefix matches the specificity of the theme's `.content a` rule,
+  // which paints an anchor-underline on every `<a>` inside `.content`
+  &,
+  &:hover {
+    // The theme's hover state expands the shadow to flood the tile
+    box-shadow: none; // Removes the `inset 0 -4px` band at each tile's bottom
+  }
+}
