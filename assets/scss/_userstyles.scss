@@ -3,10 +3,6 @@
   font-size: 0.99em;
 }
 
-// Workaround for https://github.com/1bl4z3r/hermit-V2/issues/143
-$thumbnail: 0; // Required for `@import "gallery"` compilation; overridden below
-@import "gallery";
-
 // Vertically center items so a short image (e.g. a wide lemniscate) aligns
 // with the middle of a taller neighbor instead of the top of the row
 .image-gallery {
