@@ -3,29 +3,27 @@
   font-size: 0.99em;
 }
 
-// Vertically center items so a short image (e.g. a wide lemniscate) aligns
-// with the middle of a taller neighbor instead of the top of the row
-.image-gallery {
-  align-items: center;
-}
+// The theme's masonry layout doesn't match what we want for side-by-side
+// figures: it top-aligns items and either:
+// - Uses fixed-width tiles (flex fallback).
+// - Stretches a single grid cell to 100% (native masonry).
+// Force a flex layout so figure widths stay dynamic against the container
+.content .image-gallery--masonry {
+  display: flex; // Override the theme's `display: grid` masonry path
+  flex-wrap: wrap; // Let figures stack on narrow viewports
+  align-items: center; // Vertically center a short image against a taller neighbor
 
-.image-gallery .gallery-item {
-  width: calc(50% - 15px); // Full the column side-by-side
-  height: auto; // Size each tile to its image's natural aspect ratio
-}
+  figure {
+    // Two columns; the -15px on each side leaves a visible middle gap
+    width: calc(50% - 15px);
+    flex: 0 0 auto; // Override the theme's `flex: 0 0 $thumbnail` fixed basis
 
-.image-gallery .gallery-item img {
-  width: 100%; // Fill the tile's width
-  height: auto; // Let height follow the image's natural aspect ratio
-  object-fit: contain; // Show the whole image instead of cropping it
-}
-
-.content .image-gallery .gallery-item {
-  // The `.content` prefix matches the specificity of the theme's `.content a` rule,
-  // which paints an anchor-underline on every `<a>` inside `.content`
-  &,
-  &:hover {
-    // The theme's hover state expands the shadow to flood the tile
-    box-shadow: none; // Removes the `inset 0 -4px` band at each tile's bottom
+    // The theme paints a drop shadow around each figure, which shows through
+    // transparent SVGs. Suppress on both the default figure and `figure:hover`,
+    // since the theme uses a different shadow for each
+    &,
+    &:hover {
+      box-shadow: none;
+    }
   }
 }
