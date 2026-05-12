@@ -4,3 +4,5 @@ github.com/1bl4z3r/hermit-V2 v1.1.32-0.20260424160650-5643e41bc97e h1:f9LUu7k0ky
 github.com/1bl4z3r/hermit-V2 v1.1.32-0.20260424160650-5643e41bc97e/go.mod h1:jzBra4Jey2XWE2vYCkCqttBP3KxwFXpQMK0cBcsbO04=
 github.com/1bl4z3r/hermit-V2 v1.1.33-0.20260504114516-2c230f685209 h1:wCruLNRGyccbfKc5KiAqqjYeJNZxZeroArjnTgAiBnc=
 github.com/1bl4z3r/hermit-V2 v1.1.33-0.20260504114516-2c230f685209/go.mod h1:jzBra4Jey2XWE2vYCkCqttBP3KxwFXpQMK0cBcsbO04=
+github.com/1bl4z3r/hermit-V2 v1.1.33-0.20260511180822-13da39c2a02a h1:vvExM9TmyN5HCc7tuX90eO9SkXRE6+wftSrdwFYNrfU=
+github.com/1bl4z3r/hermit-V2 v1.1.33-0.20260511180822-13da39c2a02a/go.mod h1:jzBra4Jey2XWE2vYCkCqttBP3KxwFXpQMK0cBcsbO04=

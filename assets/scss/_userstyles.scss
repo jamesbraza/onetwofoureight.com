@@ -17,13 +17,5 @@
     // Two columns; the -15px on each side leaves a visible middle gap
     width: calc(50% - 15px);
     flex: 0 0 auto; // Override the theme's `flex: 0 0 $thumbnail` fixed basis
-
-    // The theme paints a drop shadow around each figure, which shows through
-    // transparent SVGs. Suppress on both the default figure and `figure:hover`,
-    // since the theme uses a different shadow for each
-    &,
-    &:hover {
-      box-shadow: none;
-    }
   }
 }
