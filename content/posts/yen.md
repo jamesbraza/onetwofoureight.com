@@ -53,10 +53,10 @@ The two foci in the lemniscate are the 'eyes' of yin-yang.
 {{< gallery mode="masonry" >}}
 {{< figure
     src="https://upload.wikimedia.org/wikipedia/commons/b/bd/P_orbital_electron_density.png?_=20110917183816"
-    alt="electron p orbital" >}}
+    alt="electron p orbital" class="align-center" >}}
 {{< figure
     src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Lemniscate_of_Bernoulli.svg"
-    alt="lemniscate" >}}
+    alt="lemniscate" class="align-center" >}}
 {{< /gallery >}}
 
 Let's recall that yin-yang is actually a 2-D projection of a 3-D representation.

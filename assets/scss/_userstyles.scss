@@ -3,15 +3,14 @@
   font-size: 0.99em;
 }
 
-// The theme's masonry layout doesn't match what we want for side-by-side
-// figures: it top-aligns items and either:
-// - Uses fixed-width tiles (flex fallback).
-// - Stretches a single grid cell to 100% (native masonry).
-// Force a flex layout so figure widths stay dynamic against the container
+// The theme's `params.gallery.width` knob is px-only, so we can't get fluid
+// percentage widths from it. Its `mode="masonry"` gallery renders either:
+// - Masonry layout: stretches each figure to 100% of its grid cell.
+// - Flex layout: uses fixed-px tiles.
+// Specify a flex layout so figure widths stay dynamic against the container
 .content .image-gallery--masonry {
   display: flex; // Override the theme's `display: grid` masonry path
   flex-wrap: wrap; // Let figures stack on narrow viewports
-  align-items: center; // Vertically center a short image against a taller neighbor
 
   figure {
     // Two columns; the -15px on each side leaves a visible middle gap
